@@ -62,6 +62,8 @@
           <sdk>
             <platform>18</platform>
           </sdk>
+	<resourceDirectory>${basedir}/res</resourceDirectory>
+      <androidManifestFile>${basedir}/AndroidManifest.xml</androidManifestFile>
         </configuration>
         <extensions>true</extensions>
       </plugin>
